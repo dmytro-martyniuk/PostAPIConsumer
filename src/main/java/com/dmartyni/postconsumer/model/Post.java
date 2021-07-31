@@ -1,8 +1,10 @@
 package com.dmartyni.postconsumer.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
+@AllArgsConstructor
 public class Post {
 
     private int userId;
@@ -10,4 +12,5 @@ public class Post {
     private String title;
     private String body;
 
+    public Post() {}
 }
