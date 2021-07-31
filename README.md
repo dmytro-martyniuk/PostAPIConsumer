@@ -1,7 +1,6 @@
 # PostAPIConsumer application
 
-The application downloads posts from external API https://jsonplaceholder.typicode.com/posts and write into seperate files.
-Every post is written to the separate file with .json extension. 
+The application downloads posts from external API https://jsonplaceholder.typicode.com/posts and writes into separate files with .json extension. 
 
 Steps to run:
 1. In application.properties update file.output.path variable
